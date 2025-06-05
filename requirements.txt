@@ -71,7 +71,7 @@ google-auth==1.5.1
 google-auth-oauthlib==0.4.2
 google-pasta==0.2.0
 grpcio==1.30.2
-h11==0.14.0
+h11==0.16.0
 h5py==3.6.0
 h5py.-debian-h5py-serial==3.6.0
 html5lib==1.1
@@ -105,7 +105,7 @@ jsonargparse==4.20.1
 jsonschema==3.2.0
 jupyter-client==7.1.2
 jupyter-console==6.4.0
-jupyter-core==4.9.1
+jupyter-core==5.8.0
 jupyterlab-pygments==0.1.2
 jupyterlab-widgets==3.0.5
 kaggle==1.5.12
