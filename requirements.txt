@@ -24,7 +24,7 @@ Bottleneck==1.3.2
 Brlapi==0.8.3
 Brotli==1.0.9
 cachetools==5.0.0
-certifi==2020.6.20
+certifi==2023.7.22
 cffi==1.15.0
 chardet==4.0.0
 charset-normalizer==3.1.0
@@ -81,7 +81,7 @@ httptools==0.5.0
 httpx==0.23.3
 huggingface-hub==0.12.0
 hydra-core==1.3.2
-idna==3.3
+idna==3.7
 imagecodecs==2023.3.16
 imageio==2.25.0
 imgaug==0.4.0
@@ -109,7 +109,7 @@ jupyter-core==4.9.1
 jupyterlab-pygments==0.1.2
 jupyterlab-widgets==3.0.5
 kaggle==1.5.12
-keras==2.11.0
+keras==3.11.3
 keyring==23.5.0
 kiwisolver==1.3.2
 kornia==0.6.10
@@ -152,10 +152,10 @@ notebook==6.4.8
 numba==0.55.1
 numcodecs==0.11.0
 numexpr==2.8.1
-numpy==1.21.5
+numpy==1.22.2
 nvidia-dali-cuda110==1.16.0
 nvidia-ml-py3==7.352.0
-oauthlib==3.2.0
+oauthlib==3.2.2
 odfpy==1.4.2
 olefile==0.46
 omegaconf==2.3.0
@@ -179,7 +179,7 @@ ply==3.11
 pretrainedmodels==0.7.4
 prometheus-client==0.9.0
 prompt-toolkit==3.0.28
-protobuf==3.12.4
+protobuf==4.25.8
 psutil==5.9.0
 ptyprocess==0.7.0
 py==1.10.0
@@ -225,7 +225,7 @@ Random-Word==1.0.11
 readchar==4.0.5
 regex==2022.10.31
 reportlab==3.6.8
-requests==2.25.1
+requests==2.32.4
 requests-oauthlib==1.3.0
 rfc3986==1.5.0
 rich==13.3.3
@@ -251,7 +251,7 @@ tables==3.7.0
 tensorboard==2.11.0
 tensorboardX==2.6
 tensorflow-estimator==2.11.0
-tensorflow-gpu==2.11.0
+tensorflow-gpu==2.12.0
 termcolor==1.1.0
 terminado==0.13.1
 testpath==0.5.0
@@ -279,7 +279,7 @@ ufw==0.36.1
 ujson==5.7.0
 unattended-upgrades==0.1
 unicodedata2==14.0.0
-urllib3==1.26.5
+urllib3==2.5.0
 usb-creator==0.3.7
 uvicorn==0.21.1
 uvloop==0.17.0
@@ -292,7 +292,7 @@ wcwidth==0.2.5
 webencodings==0.5.1
 websocket-client==1.5.1
 websockets==10.4
-Werkzeug==2.0.2
+Werkzeug==3.0.6
 widgetsnbextension==4.0.5
 wrapt==1.13.3
 xdg==5
@@ -300,4 +300,6 @@ xkit==0.0.0
 xlwt==1.3.0
 yarl==1.8.2
 zarr==2.14.2
-zipp==1.0.0
+zipp==3.19.1
+setuptools>=78.1.1 # not directly required, pinned by Snyk to avoid a vulnerability
+wheel>=0.38.0 # not directly required, pinned by Snyk to avoid a vulnerability
