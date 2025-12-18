@@ -56,7 +56,7 @@ entrypoints==0.4
 et-xmlfile==1.0.1
 fastapi==0.88.0
 fasteners==0.14.1
-filelock==3.6.0
+filelock==3.20.1
 flake8==4.0.1
 flatbuffers===1.12.1-git20200711.33e2d80-dfsg1-0.6
 fonttools==4.29.1
@@ -265,7 +265,7 @@ torch==2.0.1
 torchattacks==3.3.0
 torchmetrics==0.11.4
 torchvision==0.15.1
-tornado==6.1
+tornado==6.5.3
 tqdm==4.64.1
 traitlets==5.9.0
 transformers==4.26.0
