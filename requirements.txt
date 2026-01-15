@@ -56,7 +56,7 @@ entrypoints==0.4
 et-xmlfile==1.0.1
 fastapi==0.88.0
 fasteners==0.14.1
-filelock==3.6.0
+filelock==3.20.3
 flake8==4.0.1
 flatbuffers===1.12.1-git20200711.33e2d80-dfsg1-0.6
 fonttools==4.29.1
@@ -279,7 +279,7 @@ ufw==0.36.1
 ujson==5.7.0
 unattended-upgrades==0.1
 unicodedata2==14.0.0
-urllib3==1.26.5
+urllib3==2.6.3
 usb-creator==0.3.7
 uvicorn==0.21.1
 uvloop==0.17.0
@@ -292,7 +292,7 @@ wcwidth==0.2.5
 webencodings==0.5.1
 websocket-client==1.5.1
 websockets==10.4
-Werkzeug==2.0.2
+Werkzeug==3.1.5
 widgetsnbextension==4.0.5
 wrapt==1.13.3
 xdg==5
