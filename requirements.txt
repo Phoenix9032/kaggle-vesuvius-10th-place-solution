@@ -135,7 +135,7 @@ matplotlib==3.5.1
 matplotlib-inline==0.1.3
 mccabe==0.6.1
 mdurl==0.1.2
-monai==1.1.0
+monai==1.5.2
 monotonic==1.6
 more-itertools==8.10.0
 mpmath==0.0.0
@@ -211,7 +211,7 @@ python-debian===0.1.43ubuntu1
 python-dotenv==1.0.0
 python-editor==1.0.4
 python-gdcm==3.0.20
-python-multipart==0.0.6
+python-multipart==0.0.22
 python-slugify==7.0.0
 pythran==0.10.0
 pytorch-lightning==2.0.0
@@ -301,3 +301,4 @@ xlwt==1.3.0
 yarl==1.8.2
 zarr==2.14.2
 zipp==1.0.0
+wheel>=0.46.2 # not directly required, pinned by Snyk to avoid a vulnerability
